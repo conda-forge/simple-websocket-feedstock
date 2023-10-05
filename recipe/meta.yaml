@@ -1,5 +1,5 @@
 {% set name = "simple-websocket" %}
-{% set version = "0.10.1" %}
+{% set version = "1.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/simple-websocket-{{ version }}.tar.gz
-  sha256: 0ab46c8ffa51a46dc95eed94608b3b722841c0bf849def71d465c5c356679c82
+  sha256: 17d2c72f4a2bd85174a97e3e4c88b01c40c3f81b7b648b0cc3ce1305968928c8
 
 build:
   noarch: python
