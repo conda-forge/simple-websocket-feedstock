@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/simple_websocket-{{ version }}.tar.gz
   sha256: 7939234e7aa067c534abdab3a9ed933ec9ce4691b0713c78acb195560aa52ae4
 
 build:
