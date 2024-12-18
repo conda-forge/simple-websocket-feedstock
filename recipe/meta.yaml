@@ -20,7 +20,7 @@ requirements:
     - setuptools >=61.2
     - pip
   run:
-    - python >=3.7
+    - python >={{ python_min }}
     - wsproto
 
 test:
@@ -30,6 +30,7 @@ test:
     - pip check
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/miguelgrinberg/simple-websocket
